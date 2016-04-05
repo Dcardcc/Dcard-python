@@ -12,6 +12,8 @@ setup(
     license="MIT",
     author="Dcard",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        "requests"
+    ],
     long_description=long_description
 )
